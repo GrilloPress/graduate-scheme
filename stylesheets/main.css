@@ -7304,7 +7304,8 @@ button.close {
 /* line 56, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_navbar.scss */
 .navbar-topbar {
   min-height: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  font-size: 15px; }
 
 /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_footer.scss */
 .footer-sitewide {
@@ -7326,6 +7327,18 @@ button.close {
   /* line 29, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_footer.scss */
   .footer-sitewide .footer-sub {
     margin-top: 2em; }
+
+/* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_sidebar.scss */
+.sidebar {
+  padding-left: 2em; }
+  @media screen and (max-width: 480px) {
+    /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_sidebar.scss */
+    .sidebar {
+      padding-left: 0; } }
+  /* line 12, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_sidebar.scss */
+  .sidebar .list-group-item {
+    border-left: 0;
+    border-right: 0; }
 
 /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_forms.scss */
 .has-warning .help-block, .has-warning .control-label, .has-warning .radio, .has-warning .checkbox, .has-warning .radio-inline, .has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
@@ -7374,26 +7387,51 @@ body {
   padding: 0.5em 0; }
 
 /* line 61, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
-.graduate-profile h3 {
-  font-size: 25px;
-  margin: 0.5em 0; }
+.graduate-profile p {
+  font-size: 19px; }
 
-/* line 72, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
+/* line 70, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
 .glyphicon-graduate-menu {
   float: right; }
 
-/* line 78, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
+/* line 76, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
 .glyphicon-graduate-menu:before {
   content: "\e258"; }
   @media screen and (max-width: 768px) {
-    /* line 78, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
+    /* line 76, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_typography.scss */
     .glyphicon-graduate-menu:before {
       content: "\e259"; } }
 
+/* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
+.align-right {
+  float: right;
+  margin: 0 0 10px 20px; }
+  @media screen and (max-width: 480px) {
+    /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
+    .align-right {
+      display: block;
+      margin: 10px;
+      width: 40%; } }
+
+/* line 16, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
+.align-left {
+  float: left;
+  margin: 0 20px 10px 0; }
+  @media screen and (max-width: 480px) {
+    /* line 16, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
+    .align-left {
+      display: block;
+      margin: 10px;
+      width: 40%; } }
+
 @media screen and (min-width: 480px) {
-  /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
+  /* line 31, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
   .img-headroom {
     margin-top: 6em; } }
+
+/* line 40, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_images.scss */
+.img-footing {
+  margin-bottom: 2em; }
 
 /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_buttons.scss */
 .btn-wire {
@@ -7418,6 +7456,11 @@ body {
 /* line 3, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_sections.scss */
 .graduate-faqs .panel-title {
   text-align: center; }
+
+/* line 11, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_sections.scss */
+li.media.graduate-profile {
+  padding: 1em 0;
+  border-top: 1px solid; }
 
 /* line 1, /Users/andrewduckworth/Sites/graduate/source/stylesheets/_blocks.scss */
 .block {
